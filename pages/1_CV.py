@@ -182,7 +182,7 @@ st.markdown(
     """
 )
 
-with st.expander("Key Project: Aladdin Service"):
+with st.expander("Key Project: Aladdin Service", expanded=True):
     st.markdown(
         """
         - Owned the design and delivery of a **Kubernetes-based AI service** using Amazon Bedrock (LLMs),

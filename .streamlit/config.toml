@@ -1,3 +1,6 @@
+[server]
+mainScriptPath = "Home.py"
+
 [theme]
 primaryColor = "#0071e3"
 backgroundColor = "#ffffff"

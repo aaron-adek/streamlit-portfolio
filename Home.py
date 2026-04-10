@@ -1,5 +1,7 @@
 import streamlit as st
 
+from sidebar import render_sidebar
+
 st.set_page_config(
     page_title="Aaron Adekoya | Data Engineer",
     page_icon="A",
@@ -35,7 +37,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-from sidebar import render_sidebar
 render_sidebar()
 
 st.markdown("# Aaron Adekoya")
@@ -43,10 +44,9 @@ st.markdown("Data Engineer · London, UK")
 
 st.markdown(
     """
-    I'm a Data Engineer with 5+ years of experience building cloud data platforms
+    Data Engineer with 5+ years of experience building cloud data platforms
     on AWS and Azure. I work on high-volume data products, ETL pipelines, and
-    have taken LLM-based systems from prototype to production. This site is a
-    working example of a Streamlit application.
+    have taken LLM-based systems from prototype to production.
     """
 )
 
@@ -100,31 +100,31 @@ with col_c:
 
 st.divider()
 
-st.markdown("### Role Alignment")
+st.markdown("### Core Skills")
 
 fit_data = {
-    "Requirement": [
+    "Skill": [
         "Streamlit web applications",
-        "Python & clean code",
-        "Data visualisation (Plotly, Matplotlib)",
+        "Python",
+        "SQL & data modelling",
+        "Data visualisation",
         "ETL / ELT pipeline design",
         "Cloud platforms (AWS, Azure)",
         "Financial / commercial datasets",
         "Data quality & governance",
-        "Snowflake & modern warehouses",
-        "Airflow orchestration",
+        "Continuous integration & deployment",
         "Collaboration & communication",
     ],
     "Experience": [
         "This app is a working example",
         "5+ years of Python, PySpark; production FastAPI services",
-        "Plotly dashboards in this app; Power BI reporting at LexisNexis",
-        "High-volume ETL pipelines (billions of rows) at Amex GBT",
+        "5+ years SQL experience across Databricks, Snowflake and more",
+        "3 years Power BI dashboard development with actionabile insights",
+        "High-volume ETL pipelines for various internal business functions",
         "AWS (S3, EC2, EKS, EMR, Bedrock) & Azure (ADF, Data Lake)",
         "Cross-system Customer360 platform; sales finance pipelines",
         "Encryption, access policies, retention strategies for compliance",
-        "Snowflake & Databricks certified; hands-on warehouse delivery",
-        "Production Airflow orchestration on AWS",
+        "Robust and streamlined CI/CD pipelines for data products",
         "Cross-functional project lead; mentored juniors; multiple awards",
     ],
 }

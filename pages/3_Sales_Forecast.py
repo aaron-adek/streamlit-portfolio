@@ -4,8 +4,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
 import pandas as pd
-import numpy as np
-import plotly.express as px
 import plotly.graph_objects as go
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
@@ -37,8 +35,10 @@ df = load_data()
 st.title("Sales Forecasting")
 st.markdown(
     """
-    Full pipeline: data prep, feature engineering, model training,
-    evaluation, and interactive prediction.
+    This page walks through a lightweight forecasting pipeline — from
+    raw data to predictions you can interact with. Pick a region and
+    category below to see how the model performs and generate forward-looking
+    revenue estimates.
     """
 )
 

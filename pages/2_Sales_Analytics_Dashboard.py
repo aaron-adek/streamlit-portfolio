@@ -30,8 +30,10 @@ df = load_data()
 st.title("Sales Analytics Dashboard")
 st.markdown(
     """
-    Regional sales performance across product categories
-    in the EMEIA territory.
+    Explore revenue, profit, and unit sales across EMEIA regions,
+    product categories, and sales channels. Use the filters below to
+    drill into specific segments — the KPIs, charts, and margin heatmap
+    will update automatically.
     """
 )
 
