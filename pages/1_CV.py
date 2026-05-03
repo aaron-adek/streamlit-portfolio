@@ -191,7 +191,6 @@ with st.expander("Key Project: Aladdin Service", expanded=True):
           to simulate user behaviour (login, navigation, tag validation) across web applications
         - **Automated detection** of broken Adobe Analytics tags, replacing manual QA processes
         - Drove operational efficiency, reducing manual validation workload on analysts
-          from **36 to 24 analyst-weeks** with reductions still happening
         - Improved data reliability and **trust in analytics**, reducing downstream reporting issues
         """
     )
